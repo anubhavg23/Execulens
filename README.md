@@ -1,70 +1,115 @@
-# Getting Started with Create React App
+ExecuLens - Code Execution Visualizer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ExecuLens is an interactive code visualization tool that helps developers understand program execution step-by-step. It provides real-time visualization of variable states, call stack, and execution flow.
 
-## Available Scripts
+✨ Features
+Step-by-step execution with variable tracking
 
-In the project directory, you can run:
+Visual debugging with breakpoint support
 
-### `npm start`
+Multi-language support (JavaScript, Python)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Execution timeline for navigation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Variable inspector showing current state
 
-### `npm test`
+Call stack visualization
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Output console for program results
 
-### `npm run build`
+Adjustable execution speed
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+🛠 Tech Stack
+Frontend: React.js
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Code Editor: Monaco Editor (VS Code's editor)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+JavaScript Parsing: Esprima
 
-### `npm run eject`
+Python Parsing: Babel Parser
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+AST Traversal: Babel Traverse
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Styling: CSS Modules
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Build Tool: Create React App
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+🚀 Setup Instructions
+Prerequisites
+Node.js (v14+)
 
-## Learn More
+npm or yarn
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Installation
+Clone the repository:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+bash
+Copy
+git clone https://github.com/anubhavg23/Execulens.git
+cd Execulens
+Install dependencies:
 
-### Code Splitting
+bash
+Copy
+npm install
+# or
+yarn install
+Start the development server:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+bash
+Copy
+npm start
+# or
+yarn start
+Open http://localhost:3000 in your browser.
 
-### Analyzing the Bundle Size
+Building for Production
+bash
+Copy
+npm run build
+# or
+yarn build
+📖 How to Use
+Write or paste code in the editor
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Set breakpoints by clicking in the gutter
 
-### Making a Progressive Web App
+Control execution:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+▶️ Run: Execute until completion or next breakpoint
 
-### Advanced Configuration
+⏸ Pause: Stop execution
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+⏭ Step: Execute next step
 
-### Deployment
+🔄 Reset: Clear execution state
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Adjust speed with the slider
 
-### `npm run build` fails to minify
+Navigate execution using the timeline
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Inspect variables and call stack in real-time
+
+📂 Project Structure
+Copy
+ExecuLens/
+├── src/
+│   ├── components/       # React components
+│   ├── App.js            # Main application
+│   ├── App.css           # Global styles
+│   ├── index.js          # Entry point
+│   └── ...               # Other configuration files
+├── public/              # Static assets
+└── package.json         # Project dependencies
+🤝 Contributing
+Contributions are welcome! Please follow these steps:
+
+Fork the repository
+
+Create your feature branch (git checkout -b feature/AmazingFeature)
+
+Commit your changes (git commit -m 'Add some AmazingFeature')
+
+Push to the branch (git push origin feature/AmazingFeature)
+
+Open a Pull Request
