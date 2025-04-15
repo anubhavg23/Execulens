@@ -1,115 +1,51 @@
-ExecuLens - Code Execution Visualizer
+<h1>ExecuLens 🔍✨</h1>
+<h3>Code Execution Visualizer</h3>
 
-ExecuLens is an interactive code visualization tool that helps developers understand program execution step-by-step. It provides real-time visualization of variable states, call stack, and execution flow.
+Watch your code come to life! Real-time visualization of variables, call stack & execution flow.
 
-✨ Features
+🔥 Features
 Step-by-step execution with variable tracking
 
-Visual debugging with breakpoint support
+Visual debugging 🐛 & breakpoints
 
-Multi-language support (JavaScript, Python)
+Multi-language: JavaScript & Python
 
-Execution timeline for navigation
+Execution timeline ⏳ & speed control
 
-Variable inspector showing current state
+Live variable inspector & call stack
 
-Call stack visualization
-
-Output console for program results
-
-Adjustable execution speed
+⚡ Quick Start
+bash
+Copy
+git clone https://github.com/anubhavg23/ExecuLens.git
+cd ExecuLens
+npm install
+npm start
+Open http://localhost:3000 and start visualizing!
 
 🛠 Tech Stack
 Frontend: React.js
 
-Code Editor: Monaco Editor (VS Code's editor)
+Editor: Monaco (VS Code's editor)
 
-JavaScript Parsing: Esprima
-
-Python Parsing: Babel Parser
-
-AST Traversal: Babel Traverse
+Parsing: Esprima (JS) / Babel (Python)
 
 Styling: CSS Modules
 
-Build Tool: Create React App
+🎮 How to Use?
+Write code in the editor
 
-🚀 Setup Instructions
-Prerequisites
-Node.js (v14+)
-
-npm or yarn
-
-Installation
-Clone the repository:
-
-bash
-Copy
-git clone https://github.com/anubhavg23/Execulens.git
-cd Execulens
-Install dependencies:
-
-bash
-Copy
-npm install
-# or
-yarn install
-Start the development server:
-
-bash
-Copy
-npm start
-# or
-yarn start
-Open http://localhost:3000 in your browser.
-
-Building for Production
-bash
-Copy
-npm run build
-# or
-yarn build
-📖 How to Use
-Write or paste code in the editor
-
-Set breakpoints by clicking in the gutter
+Set breakpoints (click the gutter)
 
 Control execution:
 
-▶️ Run: Execute until completion or next breakpoint
+▶️ Run (to breakpoint/completion)
 
-⏸ Pause: Stop execution
+⏸ Pause
 
-⏭ Step: Execute next step
+⏭ Step (next line)
 
-🔄 Reset: Clear execution state
+🔄 Reset
 
-Adjust speed with the slider
+Adjust speed & inspect variables
 
-Navigate execution using the timeline
-
-Inspect variables and call stack in real-time
-
-📂 Project Structure
-Copy
-ExecuLens/
-├── src/
-│   ├── components/       # React components
-│   ├── App.js            # Main application
-│   ├── App.css           # Global styles
-│   ├── index.js          # Entry point
-│   └── ...               # Other configuration files
-├── public/              # Static assets
-└── package.json         # Project dependencies
-🤝 Contributing
-Contributions are welcome! Please follow these steps:
-
-Fork the repository
-
-Create your feature branch (git checkout -b feature/AmazingFeature)
-
-Commit your changes (git commit -m 'Add some AmazingFeature')
-
-Push to the branch (git push origin feature/AmazingFeature)
-
-Open a Pull Request
